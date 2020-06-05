@@ -1,6 +1,7 @@
 let express=require('express')
 let mongodb=require('mongodb')
 
+// enabling express
 app=express()
 let db
 let port=process.env.PORT
